@@ -1,0 +1,17 @@
+########################
+#UNREAL GENERATED FILES#
+########################
+
+*/Build
+*/Binaries
+*/DerivedDataCache
+*/Intermediate/
+*/Saved
+BuildingEscape/Content/StarterContent/
+
+########################
+#VS GENERATED FILES#
+########################
+
+*.VC.db
+BuildingEscape/.vs/BuildingEscape/v15/ipch/AutoPCH/9424eccbbb57e1ef/POSITIONREPORT.ipch
