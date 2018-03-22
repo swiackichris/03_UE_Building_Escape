@@ -2,6 +2,7 @@
 
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
+#include "Engine/World.h"
 
 
 // Sets default values for this component's properties
@@ -20,7 +21,7 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-
+	ActorThatOpens = GetWorld()->GetFirstPlayerController->GetPawn();
 }
 
 void UOpenDoor::OpenDoor()
@@ -43,7 +44,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// Poll the Trigger Volume
-	if (PressurePlate->IsOverlappingActor*(ActorThatOpens))
+	if (PressurePlate->IsOverlappingActor(ActorThatOpens))
 	{
 		OpenDoor();
 	}

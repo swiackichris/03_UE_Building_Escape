@@ -2,9 +2,10 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "CoreMinimal.h"
 #include "Engine/TriggerVolume.h"
+#include "Runtime/Engine/Classes/GameFramework/Actor.h"
 
 #include "OpenDoor.generated.h"
 
@@ -35,8 +36,5 @@ private:
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 	
-	UPROPERTY(EditAnywhere)
-	AActor ActorThatOpens; // Remember pawn inherits from actor
-		
-	
+	AActor* ActorThatOpens; // Remember pawn inherits from actor
 };
