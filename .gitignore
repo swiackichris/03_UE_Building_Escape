@@ -14,6 +14,9 @@ BuildingEscape/Content/StarterContent/
 ########################
 
 *.VC.db
+*.suo
+*.VC.opendb
+*.sln
 BuildingEscape/.vs/BuildingEscape/v15/ipch/AutoPCH/9424eccbbb57e1ef/POSITIONREPORT.ipch
 BuildingEscape/.vs/BuildingEscape/v15/ipch/AutoPCH/5c2a74be8d4ca3ca/OPENDOOR.ipch
 BuildingEscape/.vs/BuildingEscape/v15/ipch/AutoPCH/5f45cbb78861797f/POSITIONREPORT.ipch
