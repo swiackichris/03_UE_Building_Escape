@@ -33,8 +33,9 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor()
 {
-	// Set the door rotation
-	Owner->SetActorRotation(FRotator(0.f, OpenAngle, 0.f));
+	// Owner->SetActorRotation(FRotator(0.f, OpenAngle, 0.f));
+	OnOpenRequest.Broadcast();
+	UE_LOG(LogTemp, Warning, TEXT("OPEN DOOR MESSAGE"));
 }
 
 void UOpenDoor::CloseDoor()
