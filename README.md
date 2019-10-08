@@ -1,4 +1,4 @@
-# 03_UE_Building_Escape
+# Building Escape
 
 This is my first contact with Unreal Engine 4 while doing the course found at: https://www.udemy.com/unrealcourse/learn/v4/overview
 It is my second course after the unity course that I did before this one. I decided to learn basics of both platforms to decide 
